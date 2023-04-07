@@ -13,7 +13,7 @@
 .header-img {
   width: 80%;
   height: 200px;
-  background: ("Company20%Photos/colored-logo.png");
+  background: ("colored-logo.png");
   background-size: cover;
 }
 body {
@@ -55,7 +55,7 @@ section {
 ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10;
     overflow: hidden;
     background-color: none;
 }
