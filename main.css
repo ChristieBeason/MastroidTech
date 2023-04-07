@@ -35,13 +35,13 @@ H2{
     color: black;
     text-shadow: 2px 2px #FF00FF;
     width:auto;
-}
+}*/
 H3{
     float:right;
     font: 28px arial, sans-serif;
     color: black;
     text-shadow: 3px 3px #FF00FF;
-}*/
+}
 input[type=submit]:hover ;input[type=button]:hover {
     background-color: #802F1E;
 }
@@ -94,7 +94,7 @@ ul.topnav li.right {
     overflow: hidden;
     z-index: 2;
 }
-.logo {
+/*.logo {
     font-family: arial;
     text-decoration: none;
     line-height: 1;
@@ -106,7 +106,7 @@ ul.topnav li.right {
     display: block;
     position: absolute;
     top: 17px;
-}
+}*/
 .center {
   display: block;
   margin-left: auto;
@@ -133,7 +133,7 @@ ul.topnav li.right {
     text-align: left;
     margin: auto
 }
-.footer {
+/*.footer {
     margin-top: 100px ;
     text-align: center ;
     font-size: 16px ;
@@ -159,7 +159,7 @@ div.gallery img {
     height: auto;
     font-weight:bold;
 }
-
+*/
 .right{
     color: black;
     float: right;
