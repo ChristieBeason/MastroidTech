@@ -35,23 +35,23 @@ H2{
     color: black;
     text-shadow: 2px 2px #FF00FF;
     width:auto;
-}*/
+}
 H3{
     float:right;
     font: 28px arial, sans-serif;
     color: black;
     text-shadow: 3px 3px #FF00FF;
-}
+}*/
 input[type=submit]:hover ;input[type=button]:hover {
     background-color: #802F1E;
 }
-section {
+/*section {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     color: green;
 }
-
+*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -59,9 +59,9 @@ ul.topnav {
     overflow: hidden;
     background-color: none;
 }
-ul.topnav li {
+/*ul.topnav li {
     float: left;
-}
+}*/
 ul.topnav li a {
     display: block;
     color: white;
