@@ -21,7 +21,7 @@ body {
     color: black;
     font-weight:bold;
 }
-/*H1{
+H1{
     float: inherit;
     color: black;
     font:40px cursive, courier;
@@ -35,7 +35,7 @@ H2{
     color: black;
     text-shadow: 2px 2px #FF00FF;
     width:auto;
-}*/
+}
 H3{
     float:right;
     font: 28px arial, sans-serif;
@@ -64,7 +64,7 @@ ul.topnav li {
 }
 ul.topnav li a {
     display: block;
-    color: white;
+    color: #00ffff;
     text-align: right;
     padding: 10px 12px;
     text-decoration: none;
