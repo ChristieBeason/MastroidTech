@@ -116,7 +116,6 @@ ul.topnav li.right {
 .topnav {
     position: fixed;
     z-index: 2;
-    x-index: 2;
     font-size: 17px;
     background-color: plum;
     color: darkgray;
