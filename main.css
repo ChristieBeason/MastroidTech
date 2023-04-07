@@ -29,13 +29,12 @@ H1{
     
 }
 H2{
-    /*text-align: center;*/
+    
     float: center;
-    padding: 24;
     font: 24px arial, sans-serif;
     color: black;
     text-shadow: 2px 2px #FF00FF;
-    width:auto;
+    /*width:auto;*/
 }
 H3{
     float:right;
@@ -43,10 +42,10 @@ H3{
     color: black;
     text-shadow: 3px 3px #FF00FF;
 }
-input[type=submit]:hover ;input[type=button]:hover {
+/*input[type=submit]:hover ;input[type=button]:hover {
     background-color: #802F1E;
 }
-/*section {
+section {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -80,7 +79,7 @@ ul.topnav li a.active {
 ul.topnav li.right {
     float: right;
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 600px) {
     ul.topnav li.right,
     ul.topnav li {
         float: none;
@@ -89,7 +88,7 @@ ul.topnav li.right {
 .top {
     position: relative;
     background-color: none;
-    height: 68px;
+    height: 40px;
     padding-top: 20px;
     line-height: 50px;
     overflow: hidden;
