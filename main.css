@@ -31,6 +31,7 @@ H1{
 H2{
     /*text-align: center;*/
     float: center;
+    padding: 2;
     font: 24px arial, sans-serif;
     color: black;
     text-shadow: 2px 2px #FF00FF;
