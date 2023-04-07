@@ -94,7 +94,7 @@ ul.topnav li.right {
     overflow: hidden;
     z-index: 2;
 }
-/*.logo {
+.logo {
     font-family: arial;
     text-decoration: none;
     line-height: 1;
@@ -106,7 +106,7 @@ ul.topnav li.right {
     display: block;
     position: absolute;
     top: 17px;
-}*/
+}
 .center {
   display: block;
   margin-left: auto;
