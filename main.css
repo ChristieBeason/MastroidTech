@@ -55,7 +55,7 @@ section {
 ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding: 10;
+    padding: 0;
     overflow: hidden;
     background-color: none;
 }
@@ -116,6 +116,7 @@ ul.topnav li.right {
 .topnav {
     position: fixed;
     z-index: 2;
+    x-index: 2;
     font-size: 17px;
     background-color: plum;
     color: darkgray;
