@@ -59,9 +59,9 @@ ul.topnav {
     overflow: hidden;
     background-color: none;
 }
-/*ul.topnav li {
+ul.topnav li {
     float: left;
-}*/
+}
 ul.topnav li a {
     display: block;
     color: white;
