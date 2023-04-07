@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    New Perspectives on HTML5 and CSS3 
+   
+    Author: Christie Beason 
+    Date:	10/07/2018
+    
+    Filename: gallery.html
+    -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <title>Gallery Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="shortcut icon" href="Company Photos/favicon.ico" />
+    
+</head>
+
+<body background="Company Photos/background.jpg">
+    <header>
+        <div class="center">
+            <br><img src="Company%20Photos/colored-logo-nlf-large.png" title="" alt="" width="600" height="400">
+            
+        </div>
+        
+        <nav>
+            <ul class="topnav">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="repairs.html">Repairs</a>
+                </li>
+                <li><a href="prices.html">Prices</a>
+                </li>
+                <li><a href="gallery.html"  class="active">Gallery</a>
+                </li>
+                
+                <li><a href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+        
+    
+<div>
+    <script type="text/javascript">
+            var picPaths = ["Company Photos/BlueScreen.jpg","Company Photos/wirelessCards.jpg","Company Photos/Desktop2.jpg","Company Photos/insideOfDesktop.jpg","Company Photos/MemoryWireless.jpg","Company Photos/RAM.jpg", "Company Photos/Harddrive.jpg", "Company Photos/Laptop.jpg","Company Photos/Desktop.jpg","Company Photos/Monitor.jpg","Company Photos/Desktop 3.jpg","Company Photos/SmartPhone.jpg","Company Photos/Printer.jpg", "Company Photos/Tablet.jpg"];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+            
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script> 
+    
+    <div><br><br><br>
+        <img id="imgBanner" src="" alt=""  width="900" height= "600" class="center" style="border:5px solid black"/>
+        </div>
+            
+  <!--<a target="_blank" href="Company%20Photos/Desktop.jpg" title="Desktop" >
+      <img src="Company%20Photos/Desktop.jpg" title="Desktop" alt="desktop" width="600" height="400">
+  </a>
+  <div class="desc" >Desktop</div>
+</div>
+        
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/Desktop2.jpg" title="Desktop" >
+      <img src="Company%20Photos/Desktop2.jpg" title="Desktop" alt="desktop" width="600" height="400">
+  </a>
+  <div class="desc">Desktop</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/Desktop 3.jpg" title="Desktop" >
+      <img src="Company%20Photos/Desktop 3.jpg" title="Desktop" alt="desktop" width="600" height="400">
+  </a>
+  <div class="desc">Desktop</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/Laptop.jpg" title="Laptop" >
+    <img src="Company%20Photos/Laptop.jpg" title="Laptops" alt="laptop" width="600" height="400">
+  </a>
+  <div class="desc" >Laptop</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/Tablet.jpg" >
+    <img src="Company%20Photos/Tablet.jpg" title="Tablet" alt="tablet" width="600" height="400">
+  </a>
+  <div class="desc" >Tablet</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/SmartPhone.jpg" >
+    <img src="Company%20Photos/SmartPhone.jpg" title="SmartPhone" alt="smartphone" width="600" height="400">
+  </a>
+  <div class="desc">SmartPhone</div>
+</div>
+      
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/ReplacementScreen.jpg" title="Replacement Screen" >
+      <img src="Company%20Photos/ReplacementScreen.jpg" title="Desktop" alt="desktop" width="600" height="400">
+  </a>
+  <div class="desc">Replacement Screen</div>
+</div>
+    
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/BlueScreen.jpg" title="Blue Screen" >
+      <img src="Company%20Photos/BlueScreen.jpg" title="Desktops" alt="desktops" width="600" height="400">
+  </a>
+  <div class="desc">Blue Screen</div>
+</div>
+  
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/Monitor.jpg" title="Monitor" >
+    <img src="Company%20Photos/Monitor.jpg" title="Monitor" alt="devices" width="600" height="400">
+  </a>
+  <div class="desc" >Monitor</div>
+</div>
+        
+<div class="gallery">
+  <a target="_blank" href="Company%20Photos/Harddrive.jpg" title="Hard Drives" >
+      <img src="Company%20Photos/Harddrive.jpg" title="Hard Drives" alt="desktops" width="600" height="400">
+  </a>
+  <div class="desc">Hard Drives</div>
+    </div>
+    
+    <div class="gallery">
+  <a target="_blank" href="Company%20Photos/RAM.jpg" title="RAM" >
+      <img src="Company%20Photos/RAM.jpg" title="RAM" alt="RAM" width="600" height="400">
+  </a>
+  <div class="desc">RAM</div>
+</div>
+    
+    <div class="gallery">
+  <a target="_blank" href="Company%20Photos/wirelessCards.jpg" title="Wireless Cards" >
+      <img src="Company%20Photos/wirelessCards.jpg" title="Wireless Cards" alt="wireless cards" width="600" height="400">
+  </a>
+  <div class="desc">Wireless Cards</div>
+</div>
+    
+    <div class="gallery">
+  <a target="_blank" href="Company%20Photos/MemoryWireless.jpg" title="MemoryWireless" >
+      <img src="Company%20Photos/MemoryWireless.jpg" title="MemoryWireless" alt="memoryWireless" width="600" height="400">
+  </a>
+  <div class="desc">Memory and Wireless Cards</div>
+</div>
+    
+    <div class="gallery">
+  <a target="_blank" href="Company%20Photos/insideOfDesktop.jpg" title="InsideOfDesktop" >
+      <img src="Company%20Photos/insideOfDesktop.jpg" title="InsideOfDesktop" alt="InsideOfDesktop" width="600" height="400">
+  </a>
+  <div class="desc">Inside Of Desktop</div> -->
+</div>
+  
+    
+</body>
+    
+    
+</html>

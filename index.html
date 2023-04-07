@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    New Perspectives on HTML5 and CSS3 
+   
+    Author: Christie Beason 
+    Date:	10/07/2018
+    
+    Filename:index.html
+    -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="shortcut icon" href="Company Photos/favicon.ico" />
+
+        <!--<script type="text/javascript">
+            var picPaths = ["Company Photos/Laptop.jpg","Company Photos/Desktop.jpg","Company Photos/Monitor.jpg","Company Photos/Desktop 3.jpg","Company Photos/SmartPhone.jpg","Company Photos/Printer.jpg", "Company Photos/Tablet.jpg"];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+            
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+        </script> -->
+
+    </head>
+    <body background="Company Photos/background.jpg">
+        <header>
+        <div class="center">
+            <br><img src="Company%20Photos/colored-logo-nlf-large.png" title="" alt="" width="600" height="400">
+            <!--<H1><b>Mastroid Tech</b></H1> 
+        </div>
+            <div class="right">
+                <H3><b>One Goal, One Passion, Technology.</b></H3> -->
+             </div>   
+        <nav>
+                <ul class="topnav">
+                <li><a href="index.html" class="active">Home</a>
+                </li>
+                <li><a href="repairs.html">Repairs</a>
+                </li>
+                <li><a href="prices.html">Prices</a>
+                </li>
+                <li><a href="gallery.html">Gallery</a>
+                </li>
+                
+                <li><a href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+                
+        </nav>
+            
+        <!--<div>
+        <img id="imgBanner" src="" alt=""  width="200" height= "200" class="center" style="border:5px solid black"/>
+        </div> -->
+                    
+            <div class="devices">
+                <b><p align="left;"> We work on all different kind of devices, like:</p></b><br>
+                <b><p>Smart Phones</p></b>
+                <b><p>Laptops</p></b>
+                <b><p>Desktops</p></b>
+                <b><p>Tablets</p></b>
+                <b><p>Printers</p></b>
+                <b><p>Monitors</p></b>
+                
+            </div>
+        </header>
+
+    </body>
+    
+    <!--<footer class="center">
+        <b> ***Technology does not change the world. People do.*** </b><br>
+    </footer> -->
+</html>

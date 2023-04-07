@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    New Perspectives on HTML5 and CSS3 
+    Author: Christie Beason 
+    Date:	10/29/19
+    
+    Filename: aboutus.html
+    -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <title>About Us Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="shortcut icon" href="Company Photos/favicon.ico" />
+</head>
+
+<body background="Company Photos/background.jpg">
+    <header>
+        <!--<div class="top">
+            <H1><b>Mastroid Tech</b></H1>
+        </div>
+        
+        <div class="right">
+                <H3><b>One Goal, One Passion, Technology.</b></H3>
+             </div>-->
+        <nav>
+            <ul class="topnav">
+                <li><a href="home.html">Home</a>
+                </li>
+                <li><a href="repairs.html">Repairs</a>
+                </li>
+                <li><a href="prices.html" >Prices</a>
+                </li>
+                <li><a href="gallery.html">Gallery</a>
+                </li>
+                
+            
+                <li><a href="aboutus.html" class="active">About Us</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+   
+    <div class="Logo">
+  
+      <br><img src="Company%20Photos/colored-logo-nlf-large.png" title="" alt="" width="600" height="400">
+	  </div>
+  
+    <div class="center">
+                Mastroid Tech is a small company based in Memphis, Tn. <br><br>
+                The company was launched in February of 2019, by<br><br>
+                Christie Beason. Christie has an Associate's <br><br>
+                Degree in Information Technology, Application<br><br>
+                Development and a Bachelor's Degree in Information<br><br>
+                Technology, Data Analytics. <br><br><br>
+        
+                As an extreme believer in technology and the incredible <br><br>
+                things it can do.I know that behind every smart piece of<br><br>
+                software,every powerful processor, and every brilliant <br><br>
+                line of code is and even more brilliant person.<br><br>
+                        
+                We apply technology and creativity to solve important<br><br>
+                problems. We build the world's best technology and<br><br>
+                products. Mastroid Tech creates, enhances and maintains<br><br>
+                great products and services.<br><br>
+            
+                      
+        </div>
+		
+		<div class="center">
+        <b>Contact Information:</b><br><br>
+        <b>Email: mastroidtech@gmail.com</b><br><br>
+                <b>beason.christie@outlook.com</b><br><br>
+        <b>Phone: (901) 246-2760</b><br>
+    </div>
+   
+    <div>
+        <br><br><b><p align="center"> Payment Types:</p></b>
+            <b><p align="center">Cash</p></b>
+            <b><p align="center">PayPal: paypal.me/ChristieBeason</p></b>
+            <b><p align="center">CashApp: $ChristieBeason</p></b>
+            <b><p align="center">CashApp: $MastroidTech</p></b>
+    </div>
+    
+    <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+<script>
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'silver',
+            layout: 'horizontal',
+            label: 'paypal',
+            
+        },
+        createOrder: function(data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '1'
+                    }
+                }]
+            });
+        },
+        onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+                alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+        }
+    }).render('#paypal-button-container');
+</script>
+        
+        
+    </body>
+    
+    <footer class="center">
+        <b> ***Technology does not change the world. People do.*** </b><br>
+    </footer>
+
+</html>

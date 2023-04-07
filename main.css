@@ -1,0 +1,191 @@
+@charset "utf-8";
+ 
+/*
+    New Perspectives on HTML5 and CSS3
+    Assignment 1
+    Style Sheet 
+    Author: Christie Beason 
+    Date:	01/14/2018
+    
+    Filename: main.css
+*/
+
+.header-img {
+  width: 80%;
+  height: 200px;
+  background: ("Company20%Photos/colored-logo.png");
+  background-size: cover;
+}
+body {
+    font: 20px arial, sans-serif;
+    color: black;
+    font-weight:bold;
+}
+H1{
+    float: inherit;
+    color: black;
+    font:40px cursive, courier;
+    text-shadow: 2px 2px #FF00FF;
+    
+}
+H2{
+    /*text-align: center;*/
+    float: center;
+    font: 24px arial, sans-serif;
+    color: black;
+    text-shadow: 2px 2px #FF00FF;
+    width:auto;
+}
+H3{
+    float:right;
+    font: 28px arial, sans-serif;
+    color: black;
+    text-shadow: 3px 3px #FF00FF;
+}
+input[type=submit]:hover ;input[type=button]:hover {
+    background-color: #802F1E;
+}
+section {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: green;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+ul.topnav li {
+    float: left;
+}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+ul.topnav li a.active {
+    background-color: #CCCCCC;
+    color: #333
+}
+ul.topnav li.right {
+    float: right;
+}
+@media screen and (max-width: 200px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+.top {
+    position: relative;
+    background-color: none;
+    height: 68px;
+    padding-top: 20px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 2;
+}
+.logo {
+    font-family: arial;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 37px;
+    letter-spacing: 3px;
+    color: #555555;
+    display: block;
+    position: absolute;
+    top: 17px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.topnav {
+    position: fixed;
+    z-index: 2;
+    font-size: 17px;
+    background-color: plum;
+    color: darkgray;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    float: left;
+    top: 0;
+}
+.top .logo {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    margin: auto
+}
+.footer {
+    margin-top: 100px ;
+    text-align: center ;
+    font-size: 16px ;
+    font-family: sans-serif;
+    width: 600px ;
+    height: 50px ;
+    
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    font-weight:bold;
+}
+
+.right{
+    color: black;
+    float: right;
+    text-align: center ;
+    font-size: 20px ;
+    font-family: sans-serif;
+    
+}
+
+
+div {
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif; font-weight: bold;
+}
+
+#div.devices{
+    font-size: 20px ;
+    font-family: sans-serif;
+}
+
+#div.repairs{
+    font-size: 20px ;
+    font-family: sans-serif;
+}
+img{
+    position: right;
+}
+
