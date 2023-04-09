@@ -20,9 +20,7 @@ body {
     font: 20px arial, sans-serif;
     color: black;
     font-weight:bold;
-    position: relative;
-    margin: 10;
-    padding: 10;
+        
 }
 H1{
     float: inherit;
@@ -45,34 +43,23 @@ H3{
     color: black;
     text-shadow: 3px 3px #FF00FF;
 }
-/*input[type=submit]:hover ;input[type=button]:hover {
-    background-color: #802F1E;
-}
-section {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    color: green;
-}
-*/
+
 ul.topnav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    
     overflow: hidden;
     background-color: none;
 }
-ul.topnav li {
-    float: left;
-}
+
 ul.topnav li a {
+    float: left;
     display: block;
     color: #00ffff;
     text-align: right;
-    /*padding: 10px 12px;*/
+    padding: 10px 12px;
     text-decoration: none;
 }
-ul.topnav li a:hover:not(.active) {
+/*ul.topnav li a:hover:not(.active) {
     background-color: #111;
 }
 ul.topnav li a.active {
@@ -96,20 +83,8 @@ ul.topnav li.right {
     line-height: 50px;
     overflow: hidden;
     z-index: 2;
-}
-/*.logo {
-    font-family: arial;
-    text-decoration: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 37px;
-    letter-spacing: 3px;
-    color: #555555;
-    display: block;
-    position: absolute;
-    top: 17px;
 }*/
+
 .center {
   display: block;
   margin-left: auto;
@@ -136,33 +111,7 @@ ul.topnav li.right {
     text-align: left;
     margin: auto
 }
-/*.footer {
-    margin-top: 100px ;
-    text-align: center ;
-    font-size: 16px ;
-    font-family: sans-serif;
-    width: 600px ;
-    height: 50px ;
-    
-}
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    
-}
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-    font-weight:bold;
-}
-*/
 .right{
     color: black;
     float: right;
@@ -178,11 +127,6 @@ div {
     text-align: center;
     font-family: sans-serif; font-weight: bold;
 }
-
-/*#div.devices{
-    font-size: 20px ;
-    font-family: sans-serif;
-}*/
 
 #div.repairs{
     font-size: 20px ;
