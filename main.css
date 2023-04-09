@@ -55,8 +55,8 @@ section {
 */
 ul.topnav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     overflow: hidden;
     background-color: none;
 }
@@ -67,7 +67,7 @@ ul.topnav li a {
     display: block;
     color: #00ffff;
     text-align: right;
-    padding: 10px 12px;
+    /*padding: 10px 12px;*/
     text-decoration: none;
 }
 ul.topnav li a:hover:not(.active) {
@@ -90,7 +90,7 @@ ul.topnav li.right {
     position: relative;
     background-color: none;
     height: 40px;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     line-height: 50px;
     overflow: hidden;
     z-index: 2;
