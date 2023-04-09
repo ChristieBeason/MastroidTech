@@ -51,7 +51,7 @@ ul.topnav
 {
     list-style-type: none;
     overflow: hidden;
-    /*background-color: none;*/
+    background-color: none;
 }
 
 ul.topnav li a 
@@ -63,13 +63,13 @@ ul.topnav li a
     padding: 10px 12px;
     text-decoration: none;
 }
-/*.center 
+.center 
 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}*/
+}
 .topnav 
 {
     position: fixed;
